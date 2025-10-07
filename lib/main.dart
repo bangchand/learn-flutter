@@ -7,7 +7,9 @@ import 'package:flutter1/coco/home.dart';
 import 'package:flutter1/layouting.dart';
 import 'package:flutter1/tictactoe.dart';
 import 'package:flutter1/pasar/home.dart';
+import 'package:flutter1/gesturetest.dart';
 import 'package:flutter1/ngucek/login.dart';
+import 'package:flutter1/rockpaperscissor.dart';
 
 void main() {
   runApp(const MyApp());
@@ -76,6 +78,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) => HomeCoco()));
             }, child: Text("coco")),
+                        ElevatedButton(onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => GestureTest()));
+            }, child: Text("gesture test")),
+                      ElevatedButton(onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => RockPaperScissor()));
+            }, child: Text("rock paper scicor")),
           ],
         ),
       ),

@@ -18,6 +18,7 @@ dev_dependencies:
 
 
 flutter:
+  generate: true
   assets:
     - assets/images/cat_smirk.jpeg
     - assets/images/cat_glasses.jpeg
