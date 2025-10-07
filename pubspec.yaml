@@ -1,0 +1,36 @@
+name: flutter1
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: "^1.4.0"
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  assets:
+    - assets/images/cat_smirk.jpeg
+    - assets/images/cat_glasses.jpeg
+    - assets/images/cat_screaming.jpeg
+    - assets/images/cat_stressing.jpeg
+    - assets/images/cat_question.jpeg
+    - assets/images/cat_laugh.jpeg
+    - assets/images/cat_blushing.jpeg
+    - assets/images/cat_ghost.jpeg
+    - assets/images/cat_flat.jpeg
+    - assets/images/cat_teary.jpeg
+    - assets/images/cat_slit.jpeg
+    - assets/images/cat_officer.jpeg
+    - assets/images/cat_wet.jpeg
+    - assets/images/ngucek/logo.png
+    - assets/images/ngucek/motor.png

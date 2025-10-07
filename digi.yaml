@@ -1,0 +1,6 @@
+name: "hasil_gabut"
+env:
+  - "DEV"
+  - "STAG"
+  - "PROD"
+package: null
